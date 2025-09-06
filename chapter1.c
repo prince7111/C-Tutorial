@@ -19,12 +19,15 @@
    // //               printf("area of cirecle %f",3.14 *(r*r));
    // /
    //practice Question 3  multiplyw
-    int a;
-    int b;
+    int a;// num a
+    int b;//num b
     printf("enter your number a?");
-    scanf("%d",&a);
+    // input a
+    scanf("%d",&a);            
     printf("entere yout number b?");
+    //input b
     scanf("%d",&b);
+    //multiply in new variable
     int axb=a*b;
     printf("Answer:%d",axb);
 
