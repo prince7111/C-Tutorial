@@ -11,10 +11,18 @@
   // printf("%d",isMonday || isRaining);
   //c
   // check if number is two digit or not
-  int number;
-  printf("Entere your number:");
-  scanf("%d",&number);
-  printf("%d",(number>9 )&&(number <100));
+  //home work problem 1
+
+  // int a =4;int b =77;int c =9;
+  // int avrage = (a+b+c)/3;
+  // printf("%d",avrage);
+  ////home work problem 2
+int a =4;
+int b =2;
+
+int smallest;
+
+  
 
     return 0;
    }
