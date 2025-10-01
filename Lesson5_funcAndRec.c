@@ -1,17 +1,27 @@
 #include <stdio.h>
+void namste();
+void bonjour();
       int main(){
-          //check if user is Indian = Namste  if user is frence = Bounjur
-         int isIndian =0;
-         int isFrench =1;
-          if(isIndian && 1 == 1){
-               printf("Namste \n");
-          }if(isFrench && 1==1){
-               printf("Bounjur \n");
+          printf("Entere f for frence & i for india\n");
+          char ch;
+          scanf("%c",& ch);
+          if(ch =='i'){
+               namste();
+          }else if(ch =='f'){
+               bonjour();
           }else{
-               printf("another user");
+               printf("your entered those charecter we are not coverd in this programe");
           }
           return 0;
+         
       }
+      void namste(){
+          printf("Namste \n");
+      }
+      void bonjour(){
+          printf("Bonjour \n");
+      }
+
 //           // //prototype/Declaration
 //           // void printHello();
 //           // void printBye();
