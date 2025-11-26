@@ -1,11 +1,9 @@
-# include<stdio.h>
-int main(){
-   // printf("Hello World");
-   int age=20;
-   
-   printf("the name is prince\n");
-   printf("my age %d",age);
-   printf("\ni live in khirkiya tah,chhipawad mp");
+#include <stdio.h>
+   int main(){
+    printf("Hello World");
+    for(int i=0;i<11;i++){
+      printf("pirnce meena\n");
+    }
 
     return 0;
-}
+   }
