@@ -1,10 +1,27 @@
 #include <stdio.h>
 int main(){
-    //area of circle 
+    //PERIMETER OF RACT.
+    int a;
+    int b;
+    //first side
+    printf("Enter side a:\n");
+    scanf("%d", &a);
+     //another side
+    printf("Enter side b:\n");
+    scanf("%d", &b);
+    int P = 2 *(a+b);
+    //Output Printing
+    printf("Perimeter :%d",P);
+     
+
+
+
+   /* //area of circle 
     float r;
     printf("enter radius");
     scanf("%f", &r);
     printf("area of circle is:%f",3.14 * r * r);
+    */
 
     /*area of square
 int side;
