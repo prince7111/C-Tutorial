@@ -1,6 +1,14 @@
 #include <stdio.h>
 int main(){
-    //PERIMETER OF RACT.
+    
+    int a ;//num1
+    int b ;//num2
+    scanf("%d",&a);
+    scanf("%d",&b);
+    int ans = a*b;
+    printf("a multiply b%d",ans);
+    
+   /* //PERIMETER OF RACT.
     int a;
     int b;
     //first side
@@ -12,6 +20,7 @@ int main(){
     int P = 2 *(a+b);
     //Output Printing
     printf("Perimeter :%d",P);
+    */
      
 
 
