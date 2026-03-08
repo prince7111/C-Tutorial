@@ -13,10 +13,10 @@ int main(){
      int n ;
      printf("Enter your number ");
      scanf("%d",& n);
-     printf("cube of a given number is = %d",(n*n*n));
+     printf("cube of a gicd ven number is = %d",(n*n*n));
      return 0;
 
-     */
+    
 
      int a = 4; //first number
      int b = 4; //second number
@@ -25,6 +25,11 @@ int main(){
      int sum = a + b;
      //output 
      printf("sum of a & b = %d",sum);
+      */
+     int age;
+     char name;
+     scanf("%d %c",&age,&name);
+     printf("your name first letter is: %c and your age is: %d",name ,age);
      return 0;
 
 
