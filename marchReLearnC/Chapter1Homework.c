@@ -9,11 +9,22 @@ int main(){
      printf("perimeter of rectangle is :%d",perOfRectangle);
 
      //Q2 take a numner n from user & output its cube (n*n*n)
-     */
+     
      int n ;
      printf("Enter your number ");
      scanf("%d",& n);
      printf("cube of a given number is = %d",(n*n*n));
+     return 0;
+
+     */
+
+     int a = 4; //first number
+     int b = 4; //second number
+
+     //add operation
+     int sum = a + b;
+     //output 
+     printf("sum of a & b = %d",sum);
      return 0;
 
 
