@@ -4,7 +4,7 @@ void greeting(char country);
 int main(){
     printf("Entery your country:\n");
     char country;
-    scanf("%c",country);
+    scanf("%c",&country);
     //function calling
     greeting(country);
 
