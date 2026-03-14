@@ -5,5 +5,6 @@ int main(){
 
     printf("%p\n",&age);
     printf("%u\n",&age);
+    printf("format speciifier\n");
     return 0;
 }
