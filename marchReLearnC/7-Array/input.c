@@ -10,7 +10,9 @@ int main(){
     printf("enter maths:");
     scanf("%d",&marks[2]);
 
-    printf("phy:%d chem:%d math %d",marks[0],marks[1],marks[2]);
-
+    
+    printf("enter sinskrit:");
+    scanf("%d",&marks[3]);
+    
     return 0;
 }
