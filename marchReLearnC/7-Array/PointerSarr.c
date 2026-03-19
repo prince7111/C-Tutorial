@@ -3,13 +3,13 @@
         int arr[5];
         int *ptr = &arr[0];
 
-        for(int i = 0;i<5;i++){
+        for(int i=0;i<5;i++){
             printf("%d index:",i);
-           scanf("%d",&arr[i]);
+           scanf("%d",(ptr +i));
            
         }
         for(int i=0;i<5; i++){
-            printf("output:%d,",arr[i]);
+            printf("%d index =%d ",i,*(ptr + i));
         }
           return 0;
 
